@@ -21,6 +21,7 @@ html{
 
 /*===================== HEADER=====================  */
 header{
+  width: 100%;
   background-color: black;
   height: 60px;
   font-family: Arial, sans-family;
