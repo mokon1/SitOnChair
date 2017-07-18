@@ -1,168 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl=PL">
 <head>
-		<meta charset="UTF-8">
+	<meta charset="UTF-8">
     <title>CodersLab</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Najwyższej jakości meble do domu i biura.">
+    <meta name="keywords" content="meble, fotele, krzesła, projekt mebli, meble na zamówienie">
 </head>
 <body>
-<header>
-  <div class="main_width">
-    <p class ="title">SIT <span>ON</span> CHAIR</p>
-    <nav>
-      <div class= "mainNav"> KONTAKT </div>
-      <div class= "mainNav"> GALERIA </div>
-      <div class= "mainNav"> O FIRMIE
-        <li>Aktualności</li>
-        <li>Nasz team</li>
-        <li>Historia</li>
-      </div>
-    </nav>
-  </div>
-</header>
-<section>
-  <div class="container_Section1">
-    <div class="main_width_Section1">
-      <div class="main_width">
-        <p class="sign">
-          &lt
-        </p>
-        <div class="black_chair">
+<!-- ========================= HEADER =========================--> 
+    <header>
+        <div class="row">
+            <p class ="title">SIT <span class="colorText">ON</span> CHAIR</p>
+            <nav>
+                <ul class="nav">
+                    <li class="nav">KONTAKT</li>
+                    <li class="nav">GALERIA</li>
+                    <li class="nav">
+                        <p>O FIRMIE</p>
+                        <ul class="list">
+                            <li class="company">Aktualności</li>
+                            <li class="company">Nasz team</li>
+                            <li class="company">Historia</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div> 
+    </header>
+<!-- ========================= SECTIONS =========================-->  
+    <section class="advertising">
+        <div class="row">
+            <div class="prev">
+                <p class="colorText bold">
+                    &lt;
+                </p>
+            </div>
+            <main>
+                <img src="images/black_chair.png" class="blackChair" alt="black chair" title="black chair"/>
+                <article class="text">
+                    <h1 class="bold">SIT <span class="colorText">ON</span> OUR <span class="colorText">CHAIR</span></h1>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, alesuada ultricies. Pellentesque facilisis. 
+                    </p>
+                    <input type="submit" class= "button colorBackground" value="ZOBACZ WIĘCEJ"/>
+                </article> 
+            </main>
+            <div class="next">
+                <p class="colorText bold">
+                    &gt;
+                </p>
+            </div>
         </div>
-        <div class="text">
-          <h1>SIT <span>ON</span> OUR <span>CHAIR</span></h1>
-          <p>
-            Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis. 
-          </p>
-          <input type="submit" class= "button" value="ZOBACZ WIĘCEJ"/>
+    </section>    
+    <section class="products">
+        <div class="row">
+            <div class="box1">
+                <img src="images/box1_img.jpg" alt="chair" title="chair"/>
+                <div class="shadow">
+                    <p class= "chair bold">Chair CLEAR</p>
+                    <div class="underline colorBackground"></div>
+                </div>     
+            </div>
+            <div class="box2">
+                <img src="images/box2_img.jpg" alt="chair" title="chair"/>
+                <div class="shadow">
+                     <p class= "chair bold">Chair MARGARITA</p>
+                     <div class="underline colorBackground"></div>
+                </div>
+            </div>
+            <div class="box3">
+                <h2 class="title2"> Finds all inputs</h2>
+                <div class="underline colorBackground"></div>
+                <p>
+                    Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, alesuada ultricies. <br/><br/>Etiam ullamcorper. Suspendisse a pellentesque dui, non felis.
+                </p> 
+            </div>
         </div>
-        <p class="sign">
-          &gt
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="main_width">
-   <div class="container_Section2">
-      <div class="picture1">
-        <div class="shadow">
-          <div class= "advert">Chair CLEAR</div>
-          <div class="line"></div>
-        </div>  
-      </div>
-      <div class="picture2">
-        <div class="shadow">
-          <div class= "advert">Chair MARGARITA</div>
-          <div class="line"></div>
-        </div>  
-      </div>
-      <div class="box">
-        <span class="title2"> Finds all inputs</span>
-        <div class="line"></div>
-        <p>
-          Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies.
-        </p>
-        <p>
-          Etiam ullamcorper. Suspendisse a pellentesque dui, non felis.
-        </p>  
-      </div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class= "offer">
-    <div class="main_width">
-      <div class= "advert">CENNIK</div>
-      <div class="line_Price_List"></div>
-<!-- ========================= BASIC PLAN ========================= -->      
-      <div class="basic">
-        <div class="circle"></div>
-        <div class="circle2"></div>
-        <h2>BASIC PLAN</h2>
-        <div class="circle3">
-          <p class="price1">8<p>
-          <p class="price2">5<p>
-          <p class="price3">99<p>
-          <p class="period">PLN/MSC<p>
-        </div>
-        <div class= "shadowOption1">Zakup towatu + dowóz </div>
-        <div class="shadowOption2">Serwis </div>
-        <div class="linkBasic">
-          DOŁĄCZ
-        </div>
-       </div>
-<!-- ========================= STANDARD PLAN ========================= -->          
-       <div class="standard">
-        <div class="circle"></div>
-        <div class="circle2"></div>
-        <h2>STANDARD PLAN</h2>
-        <div class="circle3">
-          <span class="price">95<sup>99</sup></span>
-          <p class="period">PLN/MSC<p>
-        </div>
-        <div class= "shadowOption3">Zakup towaru + dowóz </div>
-        <div class= "shadowOption2">Serwis </div>
-        <div class= "shadowOption4">Gwarancja 5 lat </div>
-        <div class="linkStandard">
-           DOŁĄCZ
-        </div>
-      </div>
-<!-- ========================= ADVANCE PLAN ========================= -->          
-      <div class="advance">
-        <div class="circle"></div>
-        <div class="circle2"></div>
-        <h2>ADVANCE PLAN</h2>
-        <div class="circle3">
-          <span class="price">211<sup>00</sup></span>
-          <p class="period">PLN/MSC<p>
-        </div>
-        <div class= "shadowOption1">Zakup towaru + dowóz </div>
-        <div class= "shadowOption2">Serwis </div>
-        <div class= "shadowOption4">Gwarancja 6 lat </div>
-        <div class="shadowOption2"> Porady projektanta </div>
-        <div class="linkAdvance">
-          DOŁĄCZ
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="main_width">
-    <div class="container_Section4">
-      <div class="form">
-        <div class= "advert">KONTAKT</div>
-        <div class="line_Price_List"></div>
-        <input class="name_mail" type="text" name="name" placeholder=" Imię">
-        <input class="name_mail" type="text" name="mail" placeholder=" email">
-        <textarea rows ="7" cols="43" placeholder=" Wiadomość"></textarea>
-      </div>
-      <div class="form">
-        <div class="red_chair"></div>
-        <div class="form_ok"></div>
-        <div class="agreement">
-          Zgadzam się na przetwarzanie danych osobowych.
-        </div>
-        <input type="submit" class="submit" value="WYŚLIJ" name="agreement">
-      </div>
-    </div>
-  </div>
-</section>
-<footer>
-  <div class="main_width">
-    <p>
-      Copyright 2014 | All Rights Reserved. - Sit On Chair
-    </p>
-    <ul class= "social_links">
-      <li class="logo"></li>
-      <li class="logo2"></li>
-      <li class="logo3"></li>
-      <li class="logo4"></li>
-    </ul>
-    <p class="bottom_Headline">SIT <span>ON</span> CHAIR</p>
-  </div>  
-</footer>
+    </section>
+    <section class= "offer">
+        <div class="row">
+            <p class="bold">CENNIK</p>
+            <div class="underline colorBackground"></div> 
+<!-- ========================= BASIC PLAN ========================= -->
+            <div class="basic">
+                <h2 class="colorText">BASIC PLAN</h2>
+                <div class="circleWithPrice">
+                    <p>
+                        <span class="price1">8</span>
+                        <span class="price2">5<sup class="change">99</sup></span>
+                    </p>
+                    <p class="period">PLN/MSC</p>
+                </div>
+                <ul class="options">
+                    <li class= "shadowOption1">Zakup towatu + dowóz</li>
+                    <li class="shadowOption2">Serwis</li>
+                </ul>
+                <button class="buttonBasicAdvance">
+                    DOŁĄCZ
+                </button>
+            </div>
+<!-- ========================= STANDARD PLAN ========================= -->         
+            <div class="colorBackground standard">
+                <h2>STANDARD PLAN</h2>
+                <div class="circleWithPrice">
+                    <p>
+                        <span class="colorText price1 ">95<sup class="change colorText">99</sup></span>
+                    </p>
+                    <p class="period colorText">PLN/MSC</p>
+                </div>
+                <ul class="options">
+                    <li class= "shadowOption3">Zakup towatu + dowóz</li>
+                    <li class="shadowOption2">Serwis</li>
+                    <li class="shadowOption3">Gwarancja 5 lat</li>
+                </ul>
+                <button class="buttonStandard">
+                    DOŁĄCZ
+                </button>
+            </div> 
+<!-- ========================= ADVANCE PLAN =========================-->           
+            <div class="advance">
+                <h2 class="colorText">ADVANCE PLAN</h2>
+                <div class="circleWithPrice">
+                    <p>
+                        <span class="price1">211<sup class="change">00</sup></span>
+                    </p>
+                    <p class="period">PLN/MSC</p>
+                </div>
+                <ul class="options">
+                    <li class= "shadowOption1">Zakup towatu + dowóz</li>
+                    <li class="shadowOption2">Serwis</li>
+                    <li class="shadowOption1">Gwarancja 6 lat</li>
+                    <li class="shadowOption2">Porady projektanta</li>
+                </ul>
+                <button class="buttonBasicAdvance">
+                    DOŁĄCZ
+                </button>
+            </div>
+        </div>    
+    </section>
+<!-- ========================= CONTACT =========================--> 
+    <section class="contact">
+        <div class="row">
+            <p class= "bold">KONTAKT</p>
+            <div class="underline colorBackground"></div>
+            <div class="form">    
+                <form>
+                    <label><input class="name_mail" type="text" name="name" placeholder=" Imię"></label>
+                    <label><input class="name_mail" type="text" name="mail" placeholder=" email"></label>
+                    <label><textarea rows ="7"placeholder=" Wiadomość"></textarea> </label>
+                </form>
+            </div>    
+            <div class="sendForm">
+                <div class="redChair">
+                    <img src="images/red_chair.png" alt="red chair" title="red chair"/>
+                </div>    
+                <div class="agreementForm">
+                    <div class="formOk"></div>
+                    <p class="agreement">
+                        Zgadzam się na przetwarzanie danych osobowych.
+                    </p>
+                </div>
+                <input type="submit" class="submit colorBackground" value="WYŚLIJ" name="agreement">
+            </div>
+        </div>    
+    </section>
+<!--===================== FOOTER===================== --> 
+    <footer>
+        <div class="row">
+            <p class="copyright">
+                Copyright 2014 | All Rights Reserved. - Sit On Chair
+            </p>
+            <p class="footerText bold">SIT <span class="bold">ON</span> CHAIR</p>
+            <ul class="socialLinks">
+                <li class="logo"></li>
+                <li class="logo2"></li>
+                <li class="logo3"></li>
+                <li class="logo4"></li>
+            </ul>
+        </div>    
+    </footer>
 </body>
 </html>
