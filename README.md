@@ -1,6 +1,7 @@
-# strona-fotele
-Strona wykonana w ramach zajęć Coders Lab- strona fotele.com.
+# SIT ON CHAIR - website
 
-Zadanie - stworzyć stronę.
+## Coders Lab Course Workshop.
 
-Strona główna (fotele.com) powinna zostać odzwierciedlona w HTML i CSS 1:1- powinna wyglądać tak samo jak projekt.
+First project in Coders Lab.
+
+**Practice: HTML & CSS.**
